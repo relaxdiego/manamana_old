@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'ManaManaImporter' target in the 'ManaManaImporter' project
+//
+
+#ifdef __OBJC__
+#endif

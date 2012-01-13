@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55E3FB114C0DD9F00094105 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FB014C0DD9F00094105 /* Cocoa.framework */; };
+		F55E3FBB14C0DD9F00094105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FB914C0DD9F00094105 /* InfoPlist.strings */; };
+		F55E3FBD14C0DD9F00094105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FBC14C0DD9F00094105 /* main.m */; };
+		F55E3FC114C0DD9F00094105 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FBF14C0DD9F00094105 /* Credits.rtf */; };
+		F55E3FC414C0DD9F00094105 /* MMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FC314C0DD9F00094105 /* MMDocument.m */; };
+		F55E3FC714C0DD9F00094105 /* MMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FC514C0DD9F00094105 /* MMDocument.xib */; };
+		F55E3FCA14C0DD9F00094105 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FC814C0DD9F00094105 /* MainMenu.xib */; };
+		F55E3FCD14C0DD9F00094105 /* MMDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FCB14C0DD9F00094105 /* MMDocument.xcdatamodeld */; };
+		F55E3FD514C0DD9F00094105 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FD414C0DD9F00094105 /* SenTestingKit.framework */; };
+		F55E3FD614C0DD9F00094105 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FB014C0DD9F00094105 /* Cocoa.framework */; };
+		F55E3FDE14C0DD9F00094105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FDC14C0DD9F00094105 /* InfoPlist.strings */; };
+		F55E3FE114C0DD9F00094105 /* ManaManaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FE014C0DD9F00094105 /* ManaManaTests.m */; };
+		F55E3FE914C0DD9F00094105 /* ManaManaImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FE614C0DD9F00094105 /* ManaManaImporter.mdimporter */; };
+		F55E3FEB14C0DD9F00094105 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FEA14C0DD9F00094105 /* CoreServices.framework */; };
+		F55E3FED14C0DD9F00094105 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FEC14C0DD9F00094105 /* CoreFoundation.framework */; };
+		F55E3FEF14C0DD9F00094105 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FEE14C0DD9F00094105 /* CoreData.framework */; };
+		F55E3FF114C0DD9F00094105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F55E3FF014C0DD9F00094105 /* Foundation.framework */; };
+		F55E3FF714C0DD9F00094105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F55E3FF514C0DD9F00094105 /* InfoPlist.strings */; };
+		F55E3FF914C0DD9F00094105 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FF814C0DD9F00094105 /* main.c */; };
+		F55E3FFB14C0DD9F00094105 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FFA14C0DD9F00094105 /* GetMetadataForFile.m */; };
+		F55E3FFE14C0DDA000094105 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FFD14C0DDA000094105 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55E3FD714C0DD9F00094105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55E3FA314C0DD9E00094105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55E3FAB14C0DD9F00094105;
+			remoteInfo = ManaMana;
+		};
+		F55E3FE714C0DD9F00094105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55E3FA314C0DD9E00094105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55E3FE514C0DD9F00094105;
+			remoteInfo = ManaManaImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F55E3FAC14C0DD9F00094105 /* ManaMana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManaMana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55E3FB014C0DD9F00094105 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F55E3FB314C0DD9F00094105 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F55E3FB414C0DD9F00094105 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F55E3FB514C0DD9F00094105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F55E3FB814C0DD9F00094105 /* ManaMana-Info.plist */ = {isa = PBXFileReference; path = "ManaMana-Info.plist"; sourceTree = "<group>"; };
+		F55E3FBA14C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F55E3FBC14C0DD9F00094105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F55E3FBE14C0DD9F00094105 /* ManaMana-Prefix.pch */ = {isa = PBXFileReference; path = "ManaMana-Prefix.pch"; sourceTree = "<group>"; };
+		F55E3FC014C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F55E3FC214C0DD9F00094105 /* MMDocument.h */ = {isa = PBXFileReference; path = MMDocument.h; sourceTree = "<group>"; };
+		F55E3FC314C0DD9F00094105 /* MMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDocument.m; sourceTree = "<group>"; };
+		F55E3FC614C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMDocument.xib; sourceTree = "<group>"; };
+		F55E3FC914C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F55E3FCC14C0DD9F00094105 /* MMDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMDocument.xcdatamodel; sourceTree = "<group>"; };
+		F55E3FD314C0DD9F00094105 /* ManaManaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManaManaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55E3FD414C0DD9F00094105 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F55E3FDB14C0DD9F00094105 /* ManaManaTests-Info.plist */ = {isa = PBXFileReference; path = "ManaManaTests-Info.plist"; sourceTree = "<group>"; };
+		F55E3FDD14C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F55E3FDF14C0DD9F00094105 /* ManaManaTests.h */ = {isa = PBXFileReference; path = ManaManaTests.h; sourceTree = "<group>"; };
+		F55E3FE014C0DD9F00094105 /* ManaManaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManaManaTests.m; sourceTree = "<group>"; };
+		F55E3FE614C0DD9F00094105 /* ManaManaImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManaManaImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55E3FEA14C0DD9F00094105 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		F55E3FEC14C0DD9F00094105 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F55E3FEE14C0DD9F00094105 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F55E3FF014C0DD9F00094105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F55E3FF414C0DD9F00094105 /* ManaManaImporter-Info.plist */ = {isa = PBXFileReference; path = "ManaManaImporter-Info.plist"; sourceTree = "<group>"; };
+		F55E3FF614C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F55E3FF814C0DD9F00094105 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F55E3FFA14C0DD9F00094105 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		F55E3FFC14C0DD9F00094105 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		F55E3FFD14C0DDA000094105 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		F55E3FFF14C0DDA000094105 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		F55E400014C0DDA000094105 /* ManaManaImporter-Prefix.pch */ = {isa = PBXFileReference; path = "ManaManaImporter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55E3FA914C0DD9F00094105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FB114C0DD9F00094105 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FCF14C0DD9F00094105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FD514C0DD9F00094105 /* SenTestingKit.framework in Frameworks */,
+				F55E3FD614C0DD9F00094105 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FE314C0DD9F00094105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FEB14C0DD9F00094105 /* CoreServices.framework in Frameworks */,
+				F55E3FED14C0DD9F00094105 /* CoreFoundation.framework in Frameworks */,
+				F55E3FEF14C0DD9F00094105 /* CoreData.framework in Frameworks */,
+				F55E3FF114C0DD9F00094105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55E3FA114C0DD9E00094105 = {
+			isa = PBXGroup;
+			children = (
+				F55E3FB614C0DD9F00094105 /* ManaMana */,
+				F55E3FD914C0DD9F00094105 /* ManaManaTests */,
+				F55E3FF214C0DD9F00094105 /* ManaManaImporter */,
+				F55E3FAF14C0DD9F00094105 /* Frameworks */,
+				F55E3FAD14C0DD9F00094105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55E3FAD14C0DD9F00094105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FAC14C0DD9F00094105 /* ManaMana.app */,
+				F55E3FD314C0DD9F00094105 /* ManaManaTests.octest */,
+				F55E3FE614C0DD9F00094105 /* ManaManaImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55E3FAF14C0DD9F00094105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FB014C0DD9F00094105 /* Cocoa.framework */,
+				F55E3FD414C0DD9F00094105 /* SenTestingKit.framework */,
+				F55E3FEA14C0DD9F00094105 /* CoreServices.framework */,
+				F55E3FEC14C0DD9F00094105 /* CoreFoundation.framework */,
+				F55E3FEE14C0DD9F00094105 /* CoreData.framework */,
+				F55E3FF014C0DD9F00094105 /* Foundation.framework */,
+				F55E3FB214C0DD9F00094105 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55E3FB214C0DD9F00094105 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FB314C0DD9F00094105 /* AppKit.framework */,
+				F55E3FB414C0DD9F00094105 /* CoreData.framework */,
+				F55E3FB514C0DD9F00094105 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F55E3FB614C0DD9F00094105 /* ManaMana */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FC214C0DD9F00094105 /* MMDocument.h */,
+				F55E3FC314C0DD9F00094105 /* MMDocument.m */,
+				F55E3FC514C0DD9F00094105 /* MMDocument.xib */,
+				F55E3FC814C0DD9F00094105 /* MainMenu.xib */,
+				F55E3FCB14C0DD9F00094105 /* MMDocument.xcdatamodeld */,
+				F55E3FB714C0DD9F00094105 /* Supporting Files */,
+			);
+			path = ManaMana;
+			sourceTree = "<group>";
+		};
+		F55E3FB714C0DD9F00094105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FB814C0DD9F00094105 /* ManaMana-Info.plist */,
+				F55E3FB914C0DD9F00094105 /* InfoPlist.strings */,
+				F55E3FBC14C0DD9F00094105 /* main.m */,
+				F55E3FBE14C0DD9F00094105 /* ManaMana-Prefix.pch */,
+				F55E3FBF14C0DD9F00094105 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55E3FD914C0DD9F00094105 /* ManaManaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FDF14C0DD9F00094105 /* ManaManaTests.h */,
+				F55E3FE014C0DD9F00094105 /* ManaManaTests.m */,
+				F55E3FDA14C0DD9F00094105 /* Supporting Files */,
+			);
+			path = ManaManaTests;
+			sourceTree = "<group>";
+		};
+		F55E3FDA14C0DD9F00094105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FDB14C0DD9F00094105 /* ManaManaTests-Info.plist */,
+				F55E3FDC14C0DD9F00094105 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55E3FF214C0DD9F00094105 /* ManaManaImporter */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FFA14C0DD9F00094105 /* GetMetadataForFile.m */,
+				F55E3FFC14C0DD9F00094105 /* MySpotlightImporter.h */,
+				F55E3FFD14C0DDA000094105 /* MySpotlightImporter.m */,
+				F55E3FFF14C0DDA000094105 /* Importer Read Me.txt */,
+				F55E3FF314C0DD9F00094105 /* Supporting Files */,
+			);
+			path = ManaManaImporter;
+			sourceTree = "<group>";
+		};
+		F55E3FF314C0DD9F00094105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FF414C0DD9F00094105 /* ManaManaImporter-Info.plist */,
+				F55E3FF514C0DD9F00094105 /* InfoPlist.strings */,
+				F55E3FF814C0DD9F00094105 /* main.c */,
+				F55E400014C0DDA000094105 /* ManaManaImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55E3FAB14C0DD9F00094105 /* ManaMana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55E400614C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaMana" */;
+			buildPhases = (
+				F55E3FA814C0DD9F00094105 /* Sources */,
+				F55E3FA914C0DD9F00094105 /* Frameworks */,
+				F55E3FAA14C0DD9F00094105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55E3FE814C0DD9F00094105 /* PBXTargetDependency */,
+			);
+			name = ManaMana;
+			productName = ManaMana;
+			productReference = F55E3FAC14C0DD9F00094105 /* ManaMana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55E3FD214C0DD9F00094105 /* ManaManaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55E400914C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaManaTests" */;
+			buildPhases = (
+				F55E3FCE14C0DD9F00094105 /* Sources */,
+				F55E3FCF14C0DD9F00094105 /* Frameworks */,
+				F55E3FD014C0DD9F00094105 /* Resources */,
+				F55E3FD114C0DD9F00094105 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55E3FD814C0DD9F00094105 /* PBXTargetDependency */,
+			);
+			name = ManaManaTests;
+			productName = ManaManaTests;
+			productReference = F55E3FD314C0DD9F00094105 /* ManaManaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F55E3FE514C0DD9F00094105 /* ManaManaImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55E400314C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaManaImporter" */;
+			buildPhases = (
+				F55E3FE214C0DD9F00094105 /* Sources */,
+				F55E3FE314C0DD9F00094105 /* Frameworks */,
+				F55E3FE414C0DD9F00094105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManaManaImporter;
+			productName = ManaManaImporter;
+			productReference = F55E3FE614C0DD9F00094105 /* ManaManaImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55E3FA314C0DD9E00094105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Relaxdiego, Inc.";
+			};
+			buildConfigurationList = F55E3FA614C0DD9E00094105 /* Build configuration list for PBXProject "ManaMana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F55E3FA114C0DD9E00094105;
+			productRefGroup = F55E3FAD14C0DD9F00094105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55E3FAB14C0DD9F00094105 /* ManaMana */,
+				F55E3FD214C0DD9F00094105 /* ManaManaTests */,
+				F55E3FE514C0DD9F00094105 /* ManaManaImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55E3FAA14C0DD9F00094105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FBB14C0DD9F00094105 /* InfoPlist.strings in Resources */,
+				F55E3FC114C0DD9F00094105 /* Credits.rtf in Resources */,
+				F55E3FC714C0DD9F00094105 /* MMDocument.xib in Resources */,
+				F55E3FCA14C0DD9F00094105 /* MainMenu.xib in Resources */,
+				F55E3FE914C0DD9F00094105 /* ManaManaImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FD014C0DD9F00094105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FDE14C0DD9F00094105 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FE414C0DD9F00094105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FF714C0DD9F00094105 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F55E3FD114C0DD9F00094105 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55E3FA814C0DD9F00094105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FBD14C0DD9F00094105 /* main.m in Sources */,
+				F55E3FC414C0DD9F00094105 /* MMDocument.m in Sources */,
+				F55E3FCD14C0DD9F00094105 /* MMDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FCE14C0DD9F00094105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FE114C0DD9F00094105 /* ManaManaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E3FE214C0DD9F00094105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55E3FF914C0DD9F00094105 /* main.c in Sources */,
+				F55E3FFB14C0DD9F00094105 /* GetMetadataForFile.m in Sources */,
+				F55E3FFE14C0DDA000094105 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55E3FD814C0DD9F00094105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55E3FAB14C0DD9F00094105 /* ManaMana */;
+			targetProxy = F55E3FD714C0DD9F00094105 /* PBXContainerItemProxy */;
+		};
+		F55E3FE814C0DD9F00094105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55E3FE514C0DD9F00094105 /* ManaManaImporter */;
+			targetProxy = F55E3FE714C0DD9F00094105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55E3FB914C0DD9F00094105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FBA14C0DD9F00094105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F55E3FBF14C0DD9F00094105 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FC014C0DD9F00094105 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F55E3FC514C0DD9F00094105 /* MMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FC614C0DD9F00094105 /* en */,
+			);
+			name = MMDocument.xib;
+			sourceTree = "<group>";
+		};
+		F55E3FC814C0DD9F00094105 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FC914C0DD9F00094105 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F55E3FDC14C0DD9F00094105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FDD14C0DD9F00094105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F55E3FF514C0DD9F00094105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55E3FF614C0DD9F00094105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55E400114C0DDA000094105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F55E400214C0DDA000094105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F55E400414C0DDA000094105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaManaImporter/ManaManaImporter-Prefix.pch";
+				INFOPLIST_FILE = "ManaManaImporter/ManaManaImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		F55E400514C0DDA000094105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaManaImporter/ManaManaImporter-Prefix.pch";
+				INFOPLIST_FILE = "ManaManaImporter/ManaManaImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		F55E400714C0DDA000094105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaMana/ManaMana-Prefix.pch";
+				INFOPLIST_FILE = "ManaMana/ManaMana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F55E400814C0DDA000094105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaMana/ManaMana-Prefix.pch";
+				INFOPLIST_FILE = "ManaMana/ManaMana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F55E400A14C0DDA000094105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManaMana.app/Contents/MacOS/ManaMana";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaMana/ManaMana-Prefix.pch";
+				INFOPLIST_FILE = "ManaManaTests/ManaManaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F55E400B14C0DDA000094105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ManaMana.app/Contents/MacOS/ManaMana";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManaMana/ManaMana-Prefix.pch";
+				INFOPLIST_FILE = "ManaManaTests/ManaManaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55E3FA614C0DD9E00094105 /* Build configuration list for PBXProject "ManaMana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55E400114C0DDA000094105 /* Debug */,
+				F55E400214C0DDA000094105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55E400314C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaManaImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55E400414C0DDA000094105 /* Debug */,
+				F55E400514C0DDA000094105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55E400614C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaMana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55E400714C0DDA000094105 /* Debug */,
+				F55E400814C0DDA000094105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F55E400914C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaManaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55E400A14C0DDA000094105 /* Debug */,
+				F55E400B14C0DDA000094105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F55E3FCB14C0DD9F00094105 /* MMDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F55E3FCC14C0DD9F00094105 /* MMDocument.xcdatamodel */,
+			);
+			currentVersion = F55E3FCC14C0DD9F00094105 /* MMDocument.xcdatamodel */;
+			path = MMDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F55E3FA314C0DD9E00094105 /* Project object */;
+}
