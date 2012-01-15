@@ -7,7 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MMItemTableViewController.h"
 
 @interface MMDocument : NSPersistentDocument
-
+{
+    IBOutlet NSWindow         *window;
+    IBOutlet NSBox            *itemTableViewContainer;
+    MMItemTableViewController *itemTableViewController;
+}
 @end

@@ -28,6 +28,14 @@
 		F55E3FF914C0DD9F00094105 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FF814C0DD9F00094105 /* main.c */; };
 		F55E3FFB14C0DD9F00094105 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FFA14C0DD9F00094105 /* GetMetadataForFile.m */; };
 		F55E3FFE14C0DDA000094105 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E3FFD14C0DDA000094105 /* MySpotlightImporter.m */; };
+		F55E401A14C1325100094105 /* MMItemTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E401914C1325100094105 /* MMItemTableView.m */; };
+		F55E401C14C1329600094105 /* MMItemTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55E401B14C1329600094105 /* MMItemTableView.xib */; };
+		F55E402014C1336900094105 /* MMItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E401E14C1336900094105 /* MMItemTableViewController.m */; };
+		F55E402314C135D000094105 /* MMItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55E402214C135D000094105 /* MMItemView.xib */; };
+		F55E402614C1361D00094105 /* MMItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E402514C1361D00094105 /* MMItemView.m */; };
+		F55E402A14C139AE00094105 /* MMItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E402814C139AE00094105 /* MMItemViewController.m */; };
+		F55E402E14C13A3000094105 /* MMItemTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E402D14C13A3000094105 /* MMItemTableRowView.m */; };
+		F5A8AFCB14C30A9500D04AEE /* MMManagedObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A8AFCA14C30A9500D04AEE /* MMManagedObjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,35 +61,49 @@
 		F55E3FB314C0DD9F00094105 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F55E3FB414C0DD9F00094105 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F55E3FB514C0DD9F00094105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F55E3FB814C0DD9F00094105 /* ManaMana-Info.plist */ = {isa = PBXFileReference; path = "ManaMana-Info.plist"; sourceTree = "<group>"; };
+		F55E3FB814C0DD9F00094105 /* ManaMana-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManaMana-Info.plist"; sourceTree = "<group>"; };
 		F55E3FBA14C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F55E3FBC14C0DD9F00094105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F55E3FBE14C0DD9F00094105 /* ManaMana-Prefix.pch */ = {isa = PBXFileReference; path = "ManaMana-Prefix.pch"; sourceTree = "<group>"; };
+		F55E3FBE14C0DD9F00094105 /* ManaMana-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManaMana-Prefix.pch"; sourceTree = "<group>"; };
 		F55E3FC014C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F55E3FC214C0DD9F00094105 /* MMDocument.h */ = {isa = PBXFileReference; path = MMDocument.h; sourceTree = "<group>"; };
+		F55E3FC214C0DD9F00094105 /* MMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDocument.h; sourceTree = "<group>"; };
 		F55E3FC314C0DD9F00094105 /* MMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDocument.m; sourceTree = "<group>"; };
 		F55E3FC614C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMDocument.xib; sourceTree = "<group>"; };
 		F55E3FC914C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F55E3FCC14C0DD9F00094105 /* MMDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMDocument.xcdatamodel; sourceTree = "<group>"; };
 		F55E3FD314C0DD9F00094105 /* ManaManaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManaManaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55E3FD414C0DD9F00094105 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F55E3FDB14C0DD9F00094105 /* ManaManaTests-Info.plist */ = {isa = PBXFileReference; path = "ManaManaTests-Info.plist"; sourceTree = "<group>"; };
+		F55E3FDB14C0DD9F00094105 /* ManaManaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManaManaTests-Info.plist"; sourceTree = "<group>"; };
 		F55E3FDD14C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F55E3FDF14C0DD9F00094105 /* ManaManaTests.h */ = {isa = PBXFileReference; path = ManaManaTests.h; sourceTree = "<group>"; };
+		F55E3FDF14C0DD9F00094105 /* ManaManaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManaManaTests.h; sourceTree = "<group>"; };
 		F55E3FE014C0DD9F00094105 /* ManaManaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManaManaTests.m; sourceTree = "<group>"; };
 		F55E3FE614C0DD9F00094105 /* ManaManaImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManaManaImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55E3FEA14C0DD9F00094105 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		F55E3FEC14C0DD9F00094105 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F55E3FEE14C0DD9F00094105 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F55E3FF014C0DD9F00094105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F55E3FF414C0DD9F00094105 /* ManaManaImporter-Info.plist */ = {isa = PBXFileReference; path = "ManaManaImporter-Info.plist"; sourceTree = "<group>"; };
+		F55E3FF414C0DD9F00094105 /* ManaManaImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManaManaImporter-Info.plist"; sourceTree = "<group>"; };
 		F55E3FF614C0DD9F00094105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F55E3FF814C0DD9F00094105 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F55E3FFA14C0DD9F00094105 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
-		F55E3FFC14C0DD9F00094105 /* MySpotlightImporter.h */ = {isa = PBXFileReference; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		F55E3FFC14C0DD9F00094105 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		F55E3FFD14C0DDA000094105 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
-		F55E3FFF14C0DDA000094105 /* Importer Read Me.txt */ = {isa = PBXFileReference; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
-		F55E400014C0DDA000094105 /* ManaManaImporter-Prefix.pch */ = {isa = PBXFileReference; path = "ManaManaImporter-Prefix.pch"; sourceTree = "<group>"; };
+		F55E3FFF14C0DDA000094105 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		F55E400014C0DDA000094105 /* ManaManaImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManaManaImporter-Prefix.pch"; sourceTree = "<group>"; };
+		F55E401814C1325100094105 /* MMItemTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMItemTableView.h; sourceTree = "<group>"; };
+		F55E401914C1325100094105 /* MMItemTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMItemTableView.m; sourceTree = "<group>"; };
+		F55E401B14C1329600094105 /* MMItemTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMItemTableView.xib; sourceTree = "<group>"; };
+		F55E401D14C1336900094105 /* MMItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMItemTableViewController.h; sourceTree = "<group>"; };
+		F55E401E14C1336900094105 /* MMItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMItemTableViewController.m; sourceTree = "<group>"; };
+		F55E402214C135D000094105 /* MMItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMItemView.xib; sourceTree = "<group>"; };
+		F55E402414C1361D00094105 /* MMItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMItemView.h; sourceTree = "<group>"; };
+		F55E402514C1361D00094105 /* MMItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMItemView.m; sourceTree = "<group>"; };
+		F55E402714C139AE00094105 /* MMItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMItemViewController.h; sourceTree = "<group>"; };
+		F55E402814C139AE00094105 /* MMItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMItemViewController.m; sourceTree = "<group>"; };
+		F55E402C14C13A3000094105 /* MMItemTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMItemTableRowView.h; sourceTree = "<group>"; };
+		F55E402D14C13A3000094105 /* MMItemTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMItemTableRowView.m; sourceTree = "<group>"; };
+		F5A8AFC914C30A9500D04AEE /* MMManagedObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMManagedObjectViewController.h; sourceTree = "<group>"; };
+		F5A8AFCA14C30A9500D04AEE /* MMManagedObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMManagedObjectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +186,10 @@
 		F55E3FB614C0DD9F00094105 /* ManaMana */ = {
 			isa = PBXGroup;
 			children = (
-				F55E3FC214C0DD9F00094105 /* MMDocument.h */,
-				F55E3FC314C0DD9F00094105 /* MMDocument.m */,
-				F55E3FC514C0DD9F00094105 /* MMDocument.xib */,
-				F55E3FC814C0DD9F00094105 /* MainMenu.xib */,
+				F55E400F14C0DDCE00094105 /* Models */,
+				F55E400E14C0DDC700094105 /* Views */,
+				F55E400D14C0DDBB00094105 /* Controllers */,
+				F55E400C14C0DDB000094105 /* Templates */,
 				F55E3FCB14C0DD9F00094105 /* MMDocument.xcdatamodeld */,
 				F55E3FB714C0DD9F00094105 /* Supporting Files */,
 			);
@@ -226,6 +248,52 @@
 				F55E400014C0DDA000094105 /* ManaManaImporter-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F55E400C14C0DDB000094105 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FC514C0DD9F00094105 /* MMDocument.xib */,
+				F55E401B14C1329600094105 /* MMItemTableView.xib */,
+				F55E402214C135D000094105 /* MMItemView.xib */,
+				F55E3FC814C0DD9F00094105 /* MainMenu.xib */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+		F55E400D14C0DDBB00094105 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F55E3FC214C0DD9F00094105 /* MMDocument.h */,
+				F55E3FC314C0DD9F00094105 /* MMDocument.m */,
+				F55E401D14C1336900094105 /* MMItemTableViewController.h */,
+				F55E401E14C1336900094105 /* MMItemTableViewController.m */,
+				F55E402714C139AE00094105 /* MMItemViewController.h */,
+				F55E402814C139AE00094105 /* MMItemViewController.m */,
+				F5A8AFC914C30A9500D04AEE /* MMManagedObjectViewController.h */,
+				F5A8AFCA14C30A9500D04AEE /* MMManagedObjectViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F55E400E14C0DDC700094105 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F55E402C14C13A3000094105 /* MMItemTableRowView.h */,
+				F55E402D14C13A3000094105 /* MMItemTableRowView.m */,
+				F55E401814C1325100094105 /* MMItemTableView.h */,
+				F55E401914C1325100094105 /* MMItemTableView.m */,
+				F55E402414C1361D00094105 /* MMItemView.h */,
+				F55E402514C1361D00094105 /* MMItemView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F55E400F14C0DDCE00094105 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +391,8 @@
 				F55E3FC714C0DD9F00094105 /* MMDocument.xib in Resources */,
 				F55E3FCA14C0DD9F00094105 /* MainMenu.xib in Resources */,
 				F55E3FE914C0DD9F00094105 /* ManaManaImporter.mdimporter in Resources */,
+				F55E401C14C1329600094105 /* MMItemTableView.xib in Resources */,
+				F55E402314C135D000094105 /* MMItemView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +438,12 @@
 				F55E3FBD14C0DD9F00094105 /* main.m in Sources */,
 				F55E3FC414C0DD9F00094105 /* MMDocument.m in Sources */,
 				F55E3FCD14C0DD9F00094105 /* MMDocument.xcdatamodeld in Sources */,
+				F55E401A14C1325100094105 /* MMItemTableView.m in Sources */,
+				F55E402014C1336900094105 /* MMItemTableViewController.m in Sources */,
+				F55E402614C1361D00094105 /* MMItemView.m in Sources */,
+				F55E402A14C139AE00094105 /* MMItemViewController.m in Sources */,
+				F55E402E14C13A3000094105 /* MMItemTableRowView.m in Sources */,
+				F5A8AFCB14C30A9500D04AEE /* MMManagedObjectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +678,7 @@
 				F55E400514C0DDA000094105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F55E400614C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaMana" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +687,7 @@
 				F55E400814C0DDA000094105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F55E400914C0DDA000094105 /* Build configuration list for PBXNativeTarget "ManaManaTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +696,7 @@
 				F55E400B14C0DDA000094105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
