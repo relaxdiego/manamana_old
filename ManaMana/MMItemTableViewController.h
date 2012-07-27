@@ -14,6 +14,7 @@
 @interface MMItemTableViewController : MMManagedObjectViewController <NSTableViewDelegate, NSTableViewDataSource>
 {
     NSMutableArray *itemViewControllers;
+    
 }
 
 @property (readonly, strong) NSArray *backlogItemsSortDescriptor;

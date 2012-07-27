@@ -10,6 +10,8 @@
 
 @implementation MMDocument
 
+@synthesize itemArrayController;
+
 - (id)init
 {
     self = [super init];
@@ -37,6 +39,25 @@
 + (BOOL)autosavesInPlace
 {
     return YES;
+}
+
+#pragma mark - Item array manipulation
+
+- (IBAction)addProjectItem:(id)sender
+{
+    NSLog(@"MMDocument addItem");
+    
+    // The following lines will have to be encapsulated in a model class.
+    // For now, I want to keep things easy to understand for a beginner like me.
+    
+    NSManagedObject *newItem = [NSEntityDescription insertNewObjectForEntityForName:@"ProjectItem" inManagedObjectContext:[self managedObjectContext]];
+    
+	[newItem setValue:@"New Item" forKey:@"subject"];
+}
+
+- (IBAction)removeProjectItem:(id)sender
+{
+    NSLog(@"MMDocument removeItem");
 }
 
 @end

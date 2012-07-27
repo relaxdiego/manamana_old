@@ -42,17 +42,6 @@ NSString *ManaManaItemsDropType = @"ManaManaItemsDropType";
 	return __backlogItemsSortDescriptor;
 }
 
-# pragma mark - ItemTableView data source methods
-
-- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
-    return 10;
-}
-
-- (id)tableView:(NSTableView *)aTableView objectValueForTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex
-{
-    return [[NSObject alloc] init];
-}
-
 # pragma mark - table display methods
 
 - (NSView *)tableView:(NSTableView *)tableView

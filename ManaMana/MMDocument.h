@@ -11,8 +11,15 @@
 
 @interface MMDocument : NSPersistentDocument
 {
-    IBOutlet NSWindow         *window;
-    IBOutlet NSBox            *itemTableViewContainer;
-    MMItemTableViewController *itemTableViewController;
+    IBOutlet NSWindow          *window;
+    IBOutlet NSBox             *itemTableViewContainer;
+    IBOutlet NSArrayController *itemArrayController;
+    MMItemTableViewController  *itemTableViewController;
 }
+
+@property (readonly, strong) NSArrayController *itemArrayController;
+
+- (IBAction)addProjectItem:(id)sender;
+- (IBAction)removeProjectItem:(id)sender;
+
 @end
